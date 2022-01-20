@@ -25,11 +25,11 @@ const Navbar = () => {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><a href='#' className='active'>Home</a></li>
-                <li><a href='#'>Features</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>UI SS</a></li>
-                <li><a href='#'>Download</a></li>
+                <li><a href="main" smooth={true} duration={2000}>Home</a></li>
+                <li><a href="features" smooth={true} duration={2000}>Features</a></li>
+                <li><a href="about" smooth={true} duration={2000}>About</a></li>
+                <li><a href="presentaion" smooth={true} duration={2000}>UI SS</a></li>
+                <li><a href="contact" smooth={true} duration={2000}>Download</a></li>
 
             </ul>
         </nav>
